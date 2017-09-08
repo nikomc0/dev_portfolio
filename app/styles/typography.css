@@ -1,0 +1,21 @@
+h1,h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  color: #3F3F3F;
+}
+.handwriting {
+  font-weight: bold;
+  font-family: 'Sedgwick Ave', cursive;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}

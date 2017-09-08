@@ -1,0 +1,21 @@
+#header {
+  color: white;
+  /*padding-top: 10%;*/
+  padding-bottom: 15%;
+  display: block;
+  filter: saturate(150%) grayscale(10%);
+  background: linear-gradient(to bottom, rgba(72,72,72, .4), rgba(72,72,72, .4)),url(../assets/images/notebook_notebook.png);
+  background-size: cover;
+}
+
+.navbar {
+  padding-bottom: 15%;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+.available {
+  width: 20%;
+  float: left;
+}

@@ -6,6 +6,10 @@
         requireBase: false
       });
     $stateProvider
+      .state('home', {
+        url: '/',
+        templateUrl: '/templates/home.html'
+      })
       .state('projects', {
         url: '/projects',
         templateUrl: '/templates/projects.html'
