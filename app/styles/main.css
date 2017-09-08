@@ -8,6 +8,13 @@
   background-size: cover;
 }
 
+.navbar-brand img {
+  border-radius: 25px;
+  /*border: 1px solid #73AD21;*/
+  height: 50px;
+  width: 50px;
+}
+
 .navbar {
   padding-bottom: 15%;
 }
