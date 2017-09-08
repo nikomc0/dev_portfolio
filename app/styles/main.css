@@ -1,13 +1,22 @@
+/*  Header Settings  */
 #header {
   color: white;
   /*padding-top: 10%;*/
-  padding-bottom: 15%;
   display: block;
   filter: saturate(150%) grayscale(10%);
   background: linear-gradient(to bottom, rgba(72,72,72, .4), rgba(72,72,72, .4)),url(../assets/images/notebook_notebook.png);
   background-size: cover;
 }
 
+.my-4 {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: white;
+  opacity: .3;
+}
+/*  End Header Settings  */
+
+/*  Navigation Settings  */
 .navbar-brand img {
   border-radius: 25px;
   /*border: 1px solid #73AD21;*/
@@ -23,9 +32,11 @@
   background-color: transparent !important;
 }
 
-.my-4 {
-  margin-left: 10%;
-  margin-right: 10%;
-  background: white;
-  opacity: .3;
+/*  End Navigation Settings  */
+
+/*  Buttons  */
+.buttons {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
+/*  End Buttons  */
