@@ -1,22 +1,45 @@
 /*  Header Settings  */
 #header {
   color: white;
-  /*padding-top: 10%;*/
-  display: block;
   filter: saturate(150%) grayscale(10%);
   background: linear-gradient(to bottom, rgba(72,72,72, .4), rgba(72,72,72, .4)),url(../assets/images/notebook_notebook.png);
   background-size: cover;
 }
 
-.my-4 {
+.my-1, .my-4 {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.my-4 {
   background: white;
   opacity: .3;
 }
-/*  End Header Settings  */
+/*  End Header  */
 
-/*  Navigation Settings  */
+/*  Sub Header  */
+.sub-header {
+  height: 20%;
+  color: black;
+  margin-top: -1rem;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+/*  End Sub Header  */
+
+/*  Process  */
+.process {
+  /*background-color: #72788D;*/
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.fa {
+  color: #AA552F;
+}
+/*  End Process  */
+
+/*  Navigation  */
 .navbar-brand img {
   border-radius: 25px;
   /*border: 1px solid #73AD21;*/
@@ -32,7 +55,7 @@
   background-color: transparent !important;
 }
 
-/*  End Navigation Settings  */
+/*  End Navigation  */
 
 /*  Buttons  */
 .buttons {
