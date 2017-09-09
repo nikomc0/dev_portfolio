@@ -8,6 +8,12 @@ h3 {
   color: #3F3F3F;
 }
 
+p {
+  font-family: 'Helvetica';
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 .sub-header h2 {
   font-weight:100;
 }
@@ -34,11 +40,12 @@ h3 {
 }
 
 .handwriting {
-  color: #CF8C54;
+  color: #F7AC8A;
+  font-size: 3rem;
   font-weight: bold;
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Kaushan Script', cursive;
   text-shadow: .5px 2.5px 3px black;
-  letter-spacing: .25rem;
+  /*letter-spacing: .25rem;*/
 }
 
 .navbar-light .navbar-brand {
