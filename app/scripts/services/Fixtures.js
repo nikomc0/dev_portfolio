@@ -22,8 +22,8 @@
         description: "Lorem Ipsum dolor..."
       },
 
-      projectSquatter1: {
-        title: "Squatter",
+      projectBloccipedia: {
+        title: "Bloccipedia",
         developer: "Dominick Del Bosque",
         year: "2017",
         type: "Front / Back End",
@@ -31,8 +31,17 @@
         description: "Lorem Ipsum dolor..."
       },
 
-      projectBlocJams2: {
-        title: "Bloc Jams",
+      projectBabyDrop: {
+        title: "BabyDrop",
+        developer: "Dominick Del Bosque",
+        year: "2017",
+        type: "Front End / Back End",
+        screenshotUrl: '/assets/images/SoundCloud.jpg',
+        description: "Lorem Ipsum dolor..."
+      },
+
+      projectThisDamnWorld: {
+        title: "ThisDamnWorld",
         developer: "Dominick Del Bosque",
         year: "2017",
         type: "Front End",
@@ -40,17 +49,8 @@
         description: "Lorem Ipsum dolor..."
       },
 
-      projectBlocJams4: {
-        title: "Bloc Jams",
-        developer: "Dominick Del Bosque",
-        year: "2017",
-        type: "Front End",
-        screenshotUrl: '/assets/images/SoundCloud.jpg',
-        description: "Lorem Ipsum dolor..."
-      },
-
-      projectSquatter3: {
-        title: "Squatter",
+      projectBlocChat: {
+        title: "BlocChat",
         developer: "Dominick Del Bosque",
         year: "2017",
         type: "Front / Back End",
