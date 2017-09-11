@@ -2,7 +2,9 @@
   function ProjectCtrl(Fixtures) {
     this.pageTitle = "RECENT WORK";
 
-    this.projects = Fixtures.getCollection(2);
+
+    this.projects = Fixtures.getCollection();
+
   }
   angular
     .module('portfolio')

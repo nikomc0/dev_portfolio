@@ -3,21 +3,26 @@
 
     var Fixtures = {};
 
-    var projectBlocJams = {
+    var projects = {
+      projectBlocJams: {
         title: "Bloc Jams",
         developer: "Dominick Del Bosque",
         year: "2017",
+        type: "Front End",
         screenshotUrl: '/assets/images/SoundCloud.jpg',
         description: "Lorem Ipsum dolor..."
-    };
+      },
 
-    var projectSquatter = {
+      projectSquatter: {
         title: "Squatter",
         developer: "Dominick Del Bosque",
         year: "2017",
+        type: "Front / Back End",
         screenshotUrl: '../../assets/images/background-dark.jpg',
         description: "Lorem Ipsum dolor..."
+      }
     };
+
 
 
     Fixtures.getProjects = function () {
@@ -27,8 +32,9 @@
     Fixtures.getCollection = function (numberOfProjects) {
       this.projects = [];
 
-      for (var i = 0; i < numberOfProjects; i++) {
-        this.projects.push(angular.copy(projectBlocJams));
+      for (var projectName in projects) {
+        console.log(projects[projectName]);
+        this.projects.push(angular.copy(projects[projectName]));
       }
 
       return this.projects;
