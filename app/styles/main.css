@@ -65,10 +65,8 @@
 /*  End Buttons  */
 
 /*  Projects  */
-.projects {
-  height: 100px;
-  width: 500px;
-  background-color: blue;
+.recentWork img {
   border-radius: 25px;
 }
+
 /*  End Projects  */

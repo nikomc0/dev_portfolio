@@ -20,6 +20,42 @@
         type: "Front / Back End",
         screenshotUrl: '../../assets/images/background-dark.jpg',
         description: "Lorem Ipsum dolor..."
+      },
+
+      projectSquatter1: {
+        title: "Squatter",
+        developer: "Dominick Del Bosque",
+        year: "2017",
+        type: "Front / Back End",
+        screenshotUrl: '../../assets/images/background-dark.jpg',
+        description: "Lorem Ipsum dolor..."
+      },
+
+      projectBlocJams2: {
+        title: "Bloc Jams",
+        developer: "Dominick Del Bosque",
+        year: "2017",
+        type: "Front End",
+        screenshotUrl: '/assets/images/SoundCloud.jpg',
+        description: "Lorem Ipsum dolor..."
+      },
+
+      projectBlocJams4: {
+        title: "Bloc Jams",
+        developer: "Dominick Del Bosque",
+        year: "2017",
+        type: "Front End",
+        screenshotUrl: '/assets/images/SoundCloud.jpg',
+        description: "Lorem Ipsum dolor..."
+      },
+
+      projectSquatter3: {
+        title: "Squatter",
+        developer: "Dominick Del Bosque",
+        year: "2017",
+        type: "Front / Back End",
+        screenshotUrl: '../../assets/images/background-dark.jpg',
+        description: "Lorem Ipsum dolor..."
       }
     };
 
