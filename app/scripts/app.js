@@ -12,6 +12,7 @@
       })
       .state('projects', {
         url: '/projects',
+        controller: 'ProjectCtrl as project',
         templateUrl: '/templates/projects.html'
       })
       .state('blog', {

@@ -63,3 +63,12 @@
   padding-bottom: 1rem;
 }
 /*  End Buttons  */
+
+/*  Projects  */
+.projects {
+  height: 100px;
+  width: 500px;
+  background-color: blue;
+  border-radius: 25px;
+}
+/*  End Projects  */
