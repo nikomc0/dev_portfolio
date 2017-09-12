@@ -1,9 +1,28 @@
+/*  Navigation  */
+.navbar-brand img {
+  border-radius: 25px;
+  /*border: 1px solid #73AD21;*/
+  height: 50px;
+  width: 50px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: white;
+}
+
+.bg-light {
+  background-color: #555C77 !important;
+}
+
+/*  End Navigation  */
+
 /*  Header Settings  */
 #header {
   color: white;
   filter: saturate(150%) grayscale(10%);
   background: linear-gradient(to bottom, rgba(72,72,72, .4), rgba(72,72,72, .4)),url(../assets/images/notebook_notebook.png);
   background-size: cover;
+  padding-top: 5%;
 }
 
 .my-1, .my-4 {
@@ -22,40 +41,26 @@
   height: 20%;
   color: black;
   margin-top: -1rem;
-  padding-top: 5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 /*  End Sub Header  */
 
 /*  Process  */
 .process {
   /*background-color: #72788D;*/
-  padding-top: 5rem;
+  padding-top: 2.5rem;
   padding-bottom: 5rem;
 }
 
 .fa {
   color: #AA552F;
+  /*background:#555C77;
+  padding: 30px;
+  border-radius: 200px;
+  text-align: center;*/
 }
 /*  End Process  */
-
-/*  Navigation  */
-.navbar-brand img {
-  border-radius: 25px;
-  /*border: 1px solid #73AD21;*/
-  height: 50px;
-  width: 50px;
-}
-
-.navbar {
-  padding-bottom: 15%;
-}
-
-.bg-light {
-  background-color: transparent !important;
-}
-
-/*  End Navigation  */
 
 /*  Buttons  */
 .buttons {
@@ -66,7 +71,9 @@
 
 /*  Projects  */
 .recentWork img {
+  margin-top: 10%;
   border-radius: 25px;
+  background-size: cover;
 }
 
 /*  End Projects  */
