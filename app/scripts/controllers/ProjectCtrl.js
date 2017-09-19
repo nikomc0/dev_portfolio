@@ -1,8 +1,6 @@
 (function () {
   function ProjectCtrl(Fixtures) {
-    this.pageTitle = "RECENT WORK";
-
-    this.projects = Fixtures.getCollection();
+    this.projectData = Fixtures.getProject();
 
   }
   angular

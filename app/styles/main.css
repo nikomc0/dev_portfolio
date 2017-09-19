@@ -131,7 +131,7 @@
   padding: 0;
 }
 
-.projects {
+.title {
     margin-top: 3rem;
 }
 
@@ -151,7 +151,6 @@ figcaption {
 }
 
 figure img {
-  flex-wrap: wrap;
   width: 570px;
   height: 400px;
   object-fit: cover;

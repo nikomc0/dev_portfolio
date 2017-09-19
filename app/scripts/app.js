@@ -11,10 +11,15 @@
         controller: 'LandingCtrl as landing',
         templateUrl: '/templates/landing.html'
       })
-      .state('projects', {
-        url: '/projects',
+      .state('project', {
+        url: '/project',
         controller: 'ProjectCtrl as project',
-        templateUrl: '/templates/projects.html'
+        templateUrl: '/templates/project.html'
+      })
+      .state('collection', {
+        url: '/recent_work',
+        controller: 'CollectionCtrl as collection',
+        templateUrl: '/templates/collection.html'
       })
       .state('blog', {
         url: '/blog',

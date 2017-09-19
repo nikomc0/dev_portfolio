@@ -1,0 +1,16 @@
+<div class="title container">
+  <h5 align="center">{{ collection.pageTitle }}</h5>
+
+  <div class="row">
+      <div class="col-6" ng-repeat="collection in collection.projects track by $index">
+        <figure ng-model="collection">
+          <img ui-sref="project" ng-src="{{ collection.screenshotUrl }}" ng-click="$parent.collection.test(collection)"/>
+          <figcaption>
+            {{ collection.title }} - {{ collection.year }}</br>
+            {{ collection.developer }}</br>
+            {{ collection.description }}
+          </figcaption>
+        </figure>
+      </div>
+  </div>
+</div>
