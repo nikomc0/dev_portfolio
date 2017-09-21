@@ -12,7 +12,7 @@
         type: "Front End / Back End",
         screenshotUrl: '../../assets/images/squat.png',
         description: "Real Estate app that lets commercial property owners rent on the short term.",
-        writeUp: "sandbox.html"
+        src: "/templates/writeUp/squatter.html"
       },
 
       projectSandbox: {
@@ -22,21 +22,21 @@
         year: "2017",
         type: "Front End",
         screenshotUrl: '../../assets/images/sandbox.png',
-        description: "Complete business identity for Coworking Space."
+        description: "Complete business identity for Coworking Space.",
+        src: "/templates/writeUp/sandbox.html"
       }
     };
 
-    var project = "";
-
     Fixtures.setProject = function(collection) {
-      project = collection;
-      console.log(project);
-      return project;
+      Fixtures.project = collection;
+      Fixtures.currentProject = collection;
+      console.log(Fixtures.project);
+      return Fixtures.project;
     };
 
     Fixtures.getProject = function () {
-      console.log(project);
-      return project;
+
+      return Fixtures.currentProject;
     };
 
     Fixtures.getCollection = function (numberOfProjects) {
@@ -47,6 +47,9 @@
       }
       return this.projects;
     };
+
+    Fixtures.project = null;
+    Fixtures.currentProject = null;
 
     return Fixtures;
   }

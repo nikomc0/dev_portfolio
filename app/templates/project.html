@@ -1,10 +1,11 @@
 <div class="container">
-  <div>{{ project.projectData.title }}</div>
-  <div>
-    {{ project.projectData.description }}
-    {{ project.projectData.year }}
-  </div>
-</div>
-<div class="container">
-  <ng-include src="'/templates/writeUp/sandbox.html'"></ng-include>
+	<div>
+		<h1> {{ project.projectData.title }} </h1>
+		<h6> Completion: {{ project.projectData.year }} </h6>
+	</div>
+
+	<div>
+		Description: {{ project.projectData.description }}
+	</div>
+  <ng-include src="project.projectData.src"></ng-include>
 </div>
