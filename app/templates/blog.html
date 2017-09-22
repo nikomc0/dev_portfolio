@@ -1,8 +1,14 @@
 <div class="title container">
   <h1 align="center">{{ blog.pageTitle }}</h1>
-  
-  <div ng-repeat="post in blog.posts track by $index">
-  	<h1 ui-sref="post" mg-model="post" ng-click="$parent.blog.setPost(post)">{{ post.title }}</h1>
-  	<h4>{{ post.date }}</h4>
+  <hr>
+  <div class="blog-posts" ng-repeat="post in blog.posts track by $index">
+	  <h1 ng-model="post">{{ post.title }}</h1>
+	  <h6>{{ post.date }}</h6>
+
+	  <p>{{ post.snippet }}..</p>
+  	<button type="button" class="btn btn-dark btn-md" ui-sref="post" ng-click="$parent.blog.setPost(post)">
+			READ MORE
+		</button>
+		<hr>  		
   </div>
 </div>

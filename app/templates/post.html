@@ -1,6 +1,11 @@
 <div class="container">
-	<h1 align="center">{{ post.postData.title }}</h1>
-	<h4 align="center">{{ post.postData.date }}</h4>
+	<div class="row post">
+		<div class="col">
+			<h1 align="center">{{ post.postData.title }}</h1>
+			<h6 align="center">{{ post.postData.date }}</h6>
+			<hr>
+		</div>
+	</div>
 
   <div>
   	<ng-include src="post.postData.src"></ng-include>

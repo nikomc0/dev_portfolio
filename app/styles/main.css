@@ -166,6 +166,17 @@ figure img {
 }
 
 /*  End Projects  */
+
+/*  Blogs  */
+.blog-posts, .post {
+  padding-top: 5%;
+}
+
+
+
+/*  End Blogs  */
+
+
 /* Mobile Screens */
  @media (min-width: 350px) {
   figcaption {

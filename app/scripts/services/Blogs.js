@@ -6,8 +6,9 @@
 			post1: {
 				title: "Bootcamp Experience",
 				date: "March 10, 2017",
+				snippet: "When I started at Bloc.io I was like everyone else I had talked to. I viewed web development, 'coding' as I prefer to call it, as being similar to learning a new language like French, or Spanish.",
 				src: "/templates/blog/post1.html"
-			},
+			}
 		};
 
 		Blogs.setPost = function (post) {
