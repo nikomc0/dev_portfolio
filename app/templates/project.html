@@ -1,15 +1,17 @@
-<div class="container">
-	<div>
-		<h1> {{ project.projectData.title }} </h1>
-		<h6> <strong>Completion:</strong> {{ project.projectData.year }} </h6>
-	</div>
-
-	<div>
-		<strong>Description:</strong> <br>{{ project.projectData.description }}
-	</div>
-
-	<div>
-		<a target="_blank" href="{{project.projectData.url}}"><button>Demo</button></a>
-	</div>
+<div class="container-fluid">
+	<div class="row align-items-center"  style="background-image: url({{ project.projectData.screenshotUrl }}); background-size: cover;">
+		<div class="col-md-10 project-header">
+			<h1> {{ project.projectData.title }} </h1>
+			<h6> <strong>Completion:</strong> {{ project.projectData.year }} </h6>
+			<strong>Description:</strong> <br>{{ project.projectData.description }}
+		</div>
+		
+		<div class="col-md-2">
+			<a target="_blank" href="{{project.projectData.url}}">
+				<button type="button" class="btn btn-light btn-sm">Demo</button>
+			</a>
+		</div>
+  </div>
+  <hr>
   <ng-include src="project.projectData.src"></ng-include>
 </div>
