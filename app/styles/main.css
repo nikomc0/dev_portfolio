@@ -1,3 +1,9 @@
+ *, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
 /*  Navigation  */
 .navbar-brand img {
   border-radius: 25px;
@@ -144,6 +150,7 @@ figure {
 figcaption {
   background: rgba(0, 0, 0, .5);
   width: 100%;
+  height: 5rem;
   position: absolute;
   bottom: 0;
   z-index: 1;
@@ -151,9 +158,37 @@ figcaption {
 }
 
 figure img {
+  position: relative;
   width: 570px;
   height: 400px;
   object-fit: cover;
+  overflow-x: hidden;
 }
 
 /*  End Projects  */
+/* Mobile Screens */
+ @media (min-width: 350px) {
+  figcaption {
+    overflow: hidden;
+  }
+
+ }
+
+ /* Medium and small screens (640px) */
+ @media (min-width: 640px) {
+  html { font-size: 112%; }
+
+  figcaption {
+    overflow: hidden;
+  }
+
+  figure {
+    height: 20%;
+  }
+ }
+ 
+ /* Large screens (1024px) */
+ @media (min-width: 1024px) {
+  html { font-size: 120%; }
+ }
+

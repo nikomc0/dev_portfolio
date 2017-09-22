@@ -3,9 +3,9 @@
 
   <div class="row">
       <div class="col-6" ng-repeat="collection in collection.projects track by $index">
-        <figure ng-model="collection">
+        <figure ng-model="collection" ng-mouseover="hovered = true" ng-mouseleave="hovered = false">
           <img ui-sref="project" ng-src="{{ collection.screenshotUrl }}" ng-click="$parent.collection.setProject(collection)"/>
-          <figcaption>
+          <figcaption ng-show="hovered">
             {{ collection.title }} - {{ collection.year }}</br>
             {{ collection.developer }}</br>
             {{ collection.description }}

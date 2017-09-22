@@ -34,20 +34,20 @@
         developer:"Dominick Del Bosque",
         year:"2017",
         type:"Front End",
-        screenshotUrl:"",
+        screenshotUrl:"../../assets/images/blocjams/bloc-jams-header.png",
         description: "Music player that recreates the functionality of Spotify.",
         src:"",
         url: "https://bloc-jams-dominick.netlify.com/index.html"
       },
 
       projectBlocChat: {
-        id:"",
-        title:"",
-        developer:"",
-        year:"",
-        type:"",
-        screenshotUrl:"",
-        description:"",
+        id:"BlocChat",
+        title:"Bloc Chat",
+        developer:"Dominick Del Bosque",
+        year:"2017",
+        type:"Front End / Back End",
+        screenshotUrl:"../../assets/images/Bloc-Chat.png",
+        description:"Real time chat app where users can create chat rooms.",
         src:"",
         url:""
       }
