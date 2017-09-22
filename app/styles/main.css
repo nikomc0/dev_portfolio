@@ -181,10 +181,6 @@ figure img {
   figcaption {
     overflow: hidden;
   }
-
-  figure {
-    height: 20%;
-  }
  }
  
  /* Large screens (1024px) */
