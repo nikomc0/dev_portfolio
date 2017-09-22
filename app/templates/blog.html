@@ -1,3 +1,8 @@
 <div class="title container">
-  <h5 align="center">MUSINGS</h5>
+  <h1 align="center">{{ blog.pageTitle }}</h1>
+  
+  <div ng-repeat="post in blog.posts track by $index">
+  	<h1 ui-sref="post" mg-model="post" ng-click="$parent.blog.setPost(post)">{{ post.title }}</h1>
+  	<h4>{{ post.date }}</h4>
+  </div>
 </div>

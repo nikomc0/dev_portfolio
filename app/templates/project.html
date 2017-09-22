@@ -1,11 +1,15 @@
 <div class="container">
 	<div>
 		<h1> {{ project.projectData.title }} </h1>
-		<h6> Completion: {{ project.projectData.year }} </h6>
+		<h6> <strong>Completion:</strong> {{ project.projectData.year }} </h6>
 	</div>
 
 	<div>
-		Description: {{ project.projectData.description }}
+		<strong>Description:</strong> <br>{{ project.projectData.description }}
+	</div>
+
+	<div>
+		<a target="_blank" href="{{project.projectData.url}}"><button>Demo</button></a>
 	</div>
   <ng-include src="project.projectData.src"></ng-include>
 </div>

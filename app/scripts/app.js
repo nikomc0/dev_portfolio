@@ -23,11 +23,17 @@
       })
       .state('blog', {
         url: '/blog',
+        controller: 'BlogCtrl as blog',
         templateUrl: '/templates/blog.html'
+      })
+      .state('post', {
+        url: '/post',
+        controller: 'PostCtrl as post',
+        templateUrl: '/templates/post.html'
       });
   }
 
 angular
-  .module('portfolio', ['ui.router'])
+  .module('portfolio', ['ui.router', 'ngCookies'])
   .config(config);
 })();

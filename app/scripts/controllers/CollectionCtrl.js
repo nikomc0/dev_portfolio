@@ -2,7 +2,7 @@
   function CollectionCtrl(Fixtures){
     this.pageTitle = "RECENT WORK";
     this.projects = Fixtures.getCollection();
-    this.test = function(collection) {
+    this.setProject = function(collection) {
       Fixtures.setProject(collection);
     };
   }
