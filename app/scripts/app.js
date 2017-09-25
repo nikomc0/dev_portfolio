@@ -26,6 +26,11 @@
         controller: 'BlogCtrl as blog',
         templateUrl: '/templates/blog.html'
       })
+      .state('contact', {
+        url: '/contact',
+        controller: 'ContactCtrl as contact',
+        templateUrl: '/templates/contact.html'
+      })
       .state('post', {
         url: '/post',
         controller: 'PostCtrl as post',
