@@ -36,7 +36,7 @@
         type:"Front End",
         screenshotUrl:"../../assets/images/blocjams/bloc-jams-header.png",
         description: "Music player that recreates the functionality of Spotify.",
-        src:"",
+        src:"/templates/writeUp/blocjams.html",
         url: "https://bloc-jams-dominick.netlify.com/index.html"
       },
 

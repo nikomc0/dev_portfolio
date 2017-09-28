@@ -1,5 +1,6 @@
 <div class="container-fluid">
-	<div class="row align-items-center"  style="background-image: url({{ project.projectData.screenshotUrl }}); background-size: cover;">
+	<div class="row align-items-center project-header-overlay large-padding" style="background: linear-gradient(to right, rgba(72,72,72, .8), rgba(72, 72, 72, .5)), url({{ project.projectData.screenshotUrl }});
+ background-size: cover;">
 		<div class="col-md-10 project-header">
 			<h1> {{ project.projectData.title }} </h1>
 			<h6> <strong>Completion:</strong> {{ project.projectData.year }} </h6>
@@ -8,10 +9,9 @@
 		
 		<div class="col-md-2">
 			<a target="_blank" href="{{project.projectData.url}}">
-				<button type="button" class="btn btn-light btn-sm">Demo</button>
+				<button type="button" class="btn btn-light btn-md">Demo</button>
 			</a>
 		</div>
   	</div>
-  <hr>
   <ng-include src="project.projectData.src"></ng-include>
 </div>
