@@ -13,9 +13,10 @@
   "author": "Dominick Del Bosque",
   "license": "ISC",
   "dependencies": {
-    "hapi": "~16.4.0",
-    "inert": "^4.2.0",
-    "path": "^0.4.9"
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "npm": "^6.11.3",
+    "path": "^0.4.10"
   },
   "engines": {
     "node": ">=6.11.1"
