@@ -15,7 +15,7 @@
   "dependencies": {
     "@hapi/hapi": "^18.4.0",
     "@hapi/inert": "^5.2.2",
-    "npm": "^6.11.3",
+    "npm": "^6.13.4",
     "path": "^0.4.10"
   },
   "engines": {
